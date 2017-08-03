@@ -1,17 +1,23 @@
 header{
   width: 100%;
   height: 10%;
-  display: block;
   background-color: #FB532E;
-  position: fixed;
+  display: block;
 }
 
 aside{
   width: 200px;
   height: 100%;
   background-color: #D9D0CE;
-  /*margin-top: 20%;*/
+  position : static;
+  margin-right: 0px;
 }
+
+section{
+  float: left;
+}
+
+
 
 button.accordion {
     background-color: #eee;
